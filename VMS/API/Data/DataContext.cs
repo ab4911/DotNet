@@ -13,5 +13,7 @@ namespace API.Data
         {
         }
         public DbSet<Volunteer> Volunteers { get; set; }
+
+        public DbSet<AppUser> Users {get; set;}
     }
 }
